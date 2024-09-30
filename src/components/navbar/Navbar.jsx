@@ -6,7 +6,7 @@ import Manual from '../manual/Manual';
 const Navbar = () => {
   return (
     <>
-      <div className=" sticky flex pl-3 pr-5 lg:pr- items-center justify-between bg-black h-20 text-white border-b px-[4vw]">
+      <div className=" sticky flex pl-3 pr-3 lg:pr- items-center justify-between bg-black h-20 text-white border-b px-[4vw]">
         <Link to='/' className=" text-base lg:text-lg font-semibold">Decentralized LaunchPad</Link>
 
         <div className=" flex items-center gap-3 lg:gap-5">
