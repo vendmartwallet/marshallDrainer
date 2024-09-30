@@ -2,6 +2,8 @@ import React from "react";
 import HeadLines from "../headlines/HeadLines";
 import ButtonProps from "../buttonprops/ButtonProps";
 import { MdOutlineCropSquare } from "react-icons/md";
+import Manual from "../manual/Manual";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const Box = () => {
@@ -20,9 +22,11 @@ const Hero = () => {
           <Box />
         </div>
         <div className="px-4 py-28 lg:py-40 flex h-full flex-col bg-black items-center justify-center">
+
           <div>
             <HeadLines />
           </div>
+          
           <div className=" flex flex-col items-center justify-center gap-2">
             <div className=" flex items-center gap-2">
               <ButtonProps title="Staking" />
