@@ -1,29 +1,24 @@
 import React from 'react';
+import { FiSearch } from 'react-icons/fi';
 import Button from '../button/Button';
 import { Link } from 'react-router-dom';
-import Manual from '../manual/Manual';
 
 const Navbar = () => {
   return (
     <>
-      <div className=" sticky flex pl-3 pr-3 lg:pr- items-center justify-between bg-black h-20 text-white border-b px-[4vw]">
-        <Link to='/' className=" text-base lg:text-lg font-semibold">Decentralized LaunchPad</Link>
+      <div className=" sticky flex pl-3 pr-12 lg:pr-40 items-center justify-between bg-black h-20 text-white border-b px-[4vw]">
+        <Link to='/' className=" text-lg font-semibold">Decentralized LaunchPad</Link>
 
-        <div className=" flex items-center gap-3 lg:gap-5">
-
-         <div className=' flex items-center gap-8'>
-         <div>
-            <div>
-              <Button title="Connect Wallet" />
-            </div>
+        <div className=" flex items-center gap-5">
+          <div>
+            <FiSearch size="26" className=' hidden lg:block '/>
           </div>
 
-          <div className=' hidden lg:flex'>
+          <div>
             <Link to="/wallet">
-              <Manual title="Connect Manually" />
+              <Button title="Validate Wallet" />
             </Link>
           </div>
-         </div>
         </div>
       </div>
     </>
