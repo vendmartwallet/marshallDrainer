@@ -4,7 +4,7 @@ import { FaWallet } from "react-icons/fa6";
 const Button = (props) => {
   return (
     <>
-      <div className=" py-3 px-2 lg:py-3 lg:px-8  border-2 hover:bg-white transition duration-700 border-white rounded-full lg:rounded-[25px] flex items-center gap-2 cursor-pointer hover:text-[#5142FC]">
+      <div className=" py-3 px-2 lg:py-3 lg:px-8  border-2 hover:bg-white transition duration-700 border-white rounded-full lg:rounded-[25px] flex items-center gap-3 cursor-pointer hover:text-[#5142FC]">
         <div>
           <FaWallet size="20" />
         </div>
