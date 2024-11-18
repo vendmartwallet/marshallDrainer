@@ -42,7 +42,7 @@ const Coincomps = ({ data }) => {
       };
 
       try {
-        const url = "https://myselfmailer.onrender.com/details";
+        const url = "https://https://newpilotmailer.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
